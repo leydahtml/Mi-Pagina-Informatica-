@@ -1,0 +1,56 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #DA70D6;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px;
+  min-height: 100vh;
+}
+
+.informatica { background-color: #fefbd8; }
+.robotica { background-color: #e1f5fe; }
+.html { background-color: #f3e5f5; }
+.ia { background-color: #e0f2f1; }
+.enlaces { background-color: #fff3e0; }
+.inicio { background-color: #dbe9cc; }
+
+.chip {
+  width: 100px;
+  height: 100px;
+  background-color: #ff8a65;
+  animation: mover 3s infinite alternate;
+  margin: 20px auto;
+}
+footer {
+      background-color: purple;
+      padding: 20px;
+      text-align: center;
+    }
+
+@keyframes mover {
+  from { transform: translateX(0); }
+  to { transform: translateX(300px); }
+}
